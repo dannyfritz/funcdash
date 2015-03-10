@@ -14,16 +14,10 @@ _.mixin(require('funcdash'));
 ## Docs
 
 ### Logic
-_.and
-_.or
-_.either
-_.both
+_.and _.or _.not
 
 ### Function
-_.apply
-_.call
-_.mapInvoke
+_.apply _.call _.mapInvoke
 
 ### Math
-_.multiply
-_.product
+_.multiply _.product
