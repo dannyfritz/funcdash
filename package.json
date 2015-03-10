@@ -1,6 +1,6 @@
 {
   "name": "funcdash",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Lodash mixin for functional utilities.",
   "main": "index.js",
   "files": [
