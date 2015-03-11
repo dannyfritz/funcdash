@@ -34,14 +34,21 @@ _.mixin(require('funcdash/curried'));
 
 ## Docs
 
+Read the [documentation](https://dannyfritz.github.io/funcdash/docs).
+
 ### Function
 
-\_.apply \_.call \_.mapInvoke
+[\_.apply](https://dannyfritz.github.io/funcdash/docs#apply)
+[\_.call](https://dannyfritz.github.io/funcdash/docs#call)
+[\_.mapInvoke](https://dannyfritz.github.io/funcdash/docs#mapInvoke)
 
 ### Logic
 
-\_.and \_.or \_.not
+[\_.and](https://dannyfritz.github.io/funcdash/docs#and)
+[\_.or](https://dannyfritz.github.io/funcdash/docs#or)
+[\_.not](https://dannyfritz.github.io/funcdash/docs#not)
 
 ### Math
 
-\_.multiply \_.product
+[\_.multiply](https://dannyfritz.github.io/funcdash/docs#multiply)
+[\_.product](https://dannyfritz.github.io/funcdash/docs#product)
