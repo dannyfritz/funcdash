@@ -2,7 +2,7 @@ var _ = require('lodash-compat').runInContext();
 var test = require('tape');
 _.mixin(require('..'));
 
-test('and', function (t) {
+test('mixin', function (t) {
 	t.equal(_.and(true, true), true);
 	t.equal(_.apply(_.add, [1, 2]), 3);
 	t.equal(_.call(_.add, 1, 2), 3);

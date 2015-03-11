@@ -15,6 +15,7 @@
   },
   "devDependencies": {
     "eslint": "^0.16.1",
+    "lodash-fp": "^0.5.1",
     "tap-min": "^1.0.0",
     "tape": "^3.5.0"
   },
