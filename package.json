@@ -1,0 +1,24 @@
+{
+  "name": "funcdash-pages",
+  "version": "0.0.0",
+  "description": "Documentation for funcdash",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dannyfritz/funcdash.git"
+  },
+  "keywords": [
+    "funcdash",
+    "documentation",
+    "manual"
+  ],
+  "author": "Danny Fritz <dannyfritz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dannyfritz/funcdash/issues"
+  },
+  "homepage": "https://github.com/dannyfritz/funcdash"
+}
