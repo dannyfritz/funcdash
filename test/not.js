@@ -1,5 +1,4 @@
 var test = require('tape');
-var _ = require('lodash');
 var not = require('../logic/not.js');
 
 test('not', function (t) {

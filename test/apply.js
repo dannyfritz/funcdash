@@ -1,5 +1,5 @@
 var test = require('tape');
-var _ = require('lodash');
+var _ = require('lodash-compat');
 var apply = require('../function/apply.js');
 
 test('apply', function (t) {

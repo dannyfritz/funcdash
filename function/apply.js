@@ -1,6 +1,6 @@
 'use strict';
-var isArray = require('lodash/lang/isArray');
-var isFunction = require('lodash/lang/isFunction');
+var isArray = require('lodash-compat/lang/isArray');
+var isFunction = require('lodash-compat/lang/isFunction');
 
 /**
  * Apply a function with the given array as arguments.

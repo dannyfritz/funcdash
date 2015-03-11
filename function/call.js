@@ -1,7 +1,7 @@
 'use strict';
-var isFunction = require('lodash/lang/isFunction');
-var tail = require('lodash/array/tail');
-var toArray = require('lodash/lang/toArray');
+var isFunction = require('lodash-compat/lang/isFunction');
+var tail = require('lodash-compat/array/tail');
+var toArray = require('lodash-compat/lang/toArray');
 
 /**
  *	Call a function with the given arguments.

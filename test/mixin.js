@@ -1,4 +1,4 @@
-var _ = require('lodash').runInContext();
+var _ = require('lodash-compat').runInContext();
 var test = require('tape');
 _.mixin(require('..'));
 

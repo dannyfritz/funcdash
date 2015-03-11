@@ -11,7 +11,7 @@
     "math"
   ],
   "dependencies": {
-    "lodash": "^3.5.0"
+    "lodash-compat": "^3.5.0"
   },
   "devDependencies": {
     "eslint": "^0.16.1",

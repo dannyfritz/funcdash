@@ -1,5 +1,4 @@
 var test = require('tape');
-var _ = require('lodash');
 var or = require('../logic/or.js');
 
 test('or', function (t) {

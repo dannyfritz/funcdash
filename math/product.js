@@ -1,6 +1,6 @@
 'use strict';
-var isArray = require('lodash/lang/isArray');
-var toArray = require('lodash/lang/toArray');
+var isArray = require('lodash-compat/lang/isArray');
+var toArray = require('lodash-compat/lang/toArray');
 
 /**
  * Gets the product of the values in `collection`.

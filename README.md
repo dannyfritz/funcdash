@@ -34,13 +34,13 @@ _.mixin(require('funcdash/curried'));
 
 ## Docs
 
-### Logic
-
-\_.and \_.or \_.not
-
 ### Function
 
 \_.apply \_.call \_.mapInvoke
+
+### Logic
+
+\_.and \_.or \_.not
 
 ### Math
 

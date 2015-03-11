@@ -1,8 +1,8 @@
 'use strict';
-var isFunction = require('lodash/lang/isFunction');
-var toArray = require('lodash/lang/toArray');
-var map = require('lodash/collection/map');
-var all = require('lodash/collection/all');
+var isFunction = require('lodash-compat/lang/isFunction');
+var toArray = require('lodash-compat/lang/toArray');
+var map = require('lodash-compat/collection/map');
+var all = require('lodash-compat/collection/all');
 
 /**
  *	Creates a function that when called will return an array of results from
