@@ -1,12 +1,13 @@
 {
   "name": "funcdash",
   "version": "0.1.1",
-  "description": "Lodash mixin for functional utilities.",
+  "description": "Lodash mixin for more functional utilities.",
   "main": "index.js",
   "files": [
     "index.js",
     "curried.js",
-    "lib"
+    "lib",
+    "dist"
   ],
   "dependencies": {
     "lodash": "^3.5.0"
@@ -15,6 +16,13 @@
     "eslint": "^0.16.1",
     "tap-min": "^1.0.0",
     "tape": "^3.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dannyfritz/funcdash"
+  },
+  "bugs": {
+    "url": "https://github.com/dannyfritz/funcdash/issues"
   },
   "scripts": {
     "test": "eslint lib && tape test/*.js | tap-min"
