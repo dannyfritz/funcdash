@@ -1,5 +1,7 @@
 'use strict';
-var _ = require('lodash');
+var isFunction = require('lodash/lang/isFunction');
+var tail = require('lodash/array/tail');
+var toArray = require('lodash/lang/toArray');
 
 /**
  *	Call a function with the given arguments.
@@ -16,8 +18,8 @@ var _ = require('lodash');
  * // => 3
  */
 function call (func) {
-	var args = _.tail(_.toArray(arguments));
-	if (!_.isFunction(func)) {
+	var args = tail(toArray(arguments));
+	if (!isFunction(func)) {
 		throw new Error('Expected a function');
 	}
 	return func.apply(null, args);

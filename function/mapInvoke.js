@@ -1,5 +1,8 @@
 'use strict';
-var _ = require('lodash');
+var isFunction = require('lodash/lang/isFunction');
+var toArray = require('lodash/lang/toArray');
+var map = require('lodash/collection/map');
+var all = require('lodash/collection/all');
 
 /**
  *	Creates a function that when called will return an array of results from
@@ -19,13 +22,13 @@ var _ = require('lodash');
  *	// => [8, 15]
  */
 function mapInvoke () {
-	var functions = _.toArray(arguments);
-	if (!_.all(functions, _.isFunction)) {
+	var functions = toArray(arguments);
+	if (!all(functions, isFunction)) {
 		throw new Error('Expected a function');
 	}
 	return function () {
-		var args = _.toArray(arguments);
-		return _.map(functions, function (func) {
+		var args = toArray(arguments);
+		return map(functions, function (func) {
 			return func.apply(null, args);
 		});
 	};

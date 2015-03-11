@@ -1,5 +1,5 @@
 var test = require('tape');
-var product = require('../lib/product.js');
+var product = require('../math/product.js');
 
 test('product array', function (t) {
 	t.equal(product([1, 1]), 1);

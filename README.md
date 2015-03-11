@@ -2,7 +2,9 @@
 
 Lodash mixins to fill some common functional programming gaps.
 
-## Installation
+## Usage
+
+### With [LoDash](https://github.com/lodash/lodash)
 
 ```bash
 $ npm install lodash funcdash
@@ -12,6 +14,18 @@ Using LoDash's [_.mixin](https://lodash.com/docs#mixin) method.
 ```js
 var _ = require('lodash').runInContext();
 _.mixin(require('funcdash'));
+```
+
+### With [LoDash-fp](https://github.com/lodash/lodash-fp)
+
+```bash
+$ npm install lodash-fp funcdash
+```
+
+Using LoDash's [_.mixin](https://lodash.com/docs#mixin) method.
+```js
+var _ = require('lodash-fp').runInContext();
+_.mixin(require('funcdash/curried'));
 ```
 
 ## Docs

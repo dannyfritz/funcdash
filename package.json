@@ -4,10 +4,8 @@
   "description": "Lodash mixin for more functional utilities.",
   "main": "index.js",
   "files": [
-    "index.js",
-    "curried.js",
-    "lib",
-    "dist"
+    "index.js", "curried.js",
+    "function", "logic", "math"
   ],
   "dependencies": {
     "lodash": "^3.5.0"
@@ -25,7 +23,7 @@
     "url": "https://github.com/dannyfritz/funcdash/issues"
   },
   "scripts": {
-    "test": "eslint lib && tape test/*.js | tap-min"
+    "test": "eslint function logic math && tape test/*.js | tap-min"
   },
   "author": "Danny Fritz <dannyfritz@gmail.com>",
   "license": "MIT",

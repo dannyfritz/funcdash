@@ -1,5 +1,5 @@
 var test = require('tape');
-var multiply = require('../lib/multiply.js');
+var multiply = require('../math/multiply.js');
 
 test('multiply', function (t) {
 	t.equal(multiply(1, 1), 1);

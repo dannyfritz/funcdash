@@ -1,5 +1,6 @@
 'use strict';
-var _ = require('lodash');
+var isArray = require('lodash/lang/isArray');
+var toArray = require('lodash/lang/toArray');
 
 /**
  * Gets the product of the values in `collection`.
@@ -19,8 +20,8 @@ var _ = require('lodash');
  */
 function product (collection) {
 	var length, result;
-	if (!_.isArray(collection)) {
-		collection = _.toArray(collection);
+	if (!isArray(collection)) {
+		collection = toArray(collection);
 	}
 	length = collection.length;
 	if (length === 0) {

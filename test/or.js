@@ -1,6 +1,6 @@
 var test = require('tape');
 var _ = require('lodash');
-var or = require('../lib/or.js');
+var or = require('../logic/or.js');
 
 test('or', function (t) {
 	t.equal(or(true, true), true);

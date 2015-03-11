@@ -1,5 +1,6 @@
 'use strict';
-var _ = require('lodash');
+var isArray = require('lodash/lang/isArray');
+var isFunction = require('lodash/lang/isFunction');
 
 /**
  * Apply a function with the given array as arguments.
@@ -16,10 +17,10 @@ var _ = require('lodash');
  * // => 3
  */
 function apply (func, args) {
-	if (!_.isFunction(func)) {
+	if (!isFunction(func)) {
 		throw new Error('Expected a function');
 	}
-	if (!_.isArray(args)) {
+	if (!isArray(args)) {
 		args = [];
 	}
 	return func.apply(null, args);

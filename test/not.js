@@ -1,6 +1,6 @@
 var test = require('tape');
 var _ = require('lodash');
-var not = require('../lib/not.js');
+var not = require('../logic/not.js');
 
 test('not', function (t) {
 	t.equal(not(true), false);

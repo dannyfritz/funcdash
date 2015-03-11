@@ -1,6 +1,6 @@
 var test = require('tape');
 var _ = require('lodash');
-var and = require('../lib/and.js');
+var and = require('../logic/and');
 
 test('and', function (t) {
 	t.equal(and(true, true), true);
