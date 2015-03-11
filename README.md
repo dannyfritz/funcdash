@@ -1,4 +1,8 @@
+[![MIT](https://img.shields.io/npm/l/funcdash.svg?style=flat-square)](http://opensource.org/licenses/MIT)
+[![npm](https://img.shields.io/npm/v/funcdash.svg?style=flat-square)](https://www.npmjs.com/package/funcdash)
+
 # funcdash
+
 
 Lodash mixins to fill some common functional programming gaps.
 
