@@ -34,21 +34,21 @@ _.mixin(require('funcdash/curried'));
 
 ## Docs
 
-Read the [documentation](https://dannyfritz.github.io/funcdash/docs).
+Read the [documentation](https://dannyfritz.github.io/funcdash/docs/_.html).
 
 ### Function
 
-[\_.apply](https://dannyfritz.github.io/funcdash/docs#apply)
-[\_.call](https://dannyfritz.github.io/funcdash/docs#call)
-[\_.mapInvoke](https://dannyfritz.github.io/funcdash/docs#mapInvoke)
+[\_.apply](https://dannyfritz.github.io/funcdash/docs/_.html#apply)
+[\_.call](https://dannyfritz.github.io/funcdash/docs/_.html#call)
+[\_.mapInvoke](https://dannyfritz.github.io/funcdash/docs/_.html#mapInvoke)
 
 ### Logic
 
-[\_.and](https://dannyfritz.github.io/funcdash/docs#and)
-[\_.or](https://dannyfritz.github.io/funcdash/docs#or)
-[\_.not](https://dannyfritz.github.io/funcdash/docs#not)
+[\_.and](https://dannyfritz.github.io/funcdash/docs/_.html#and)
+[\_.or](https://dannyfritz.github.io/funcdash/docs/_.html#or)
+[\_.not](https://dannyfritz.github.io/funcdash/docs/_.html#not)
 
 ### Math
 
-[\_.multiply](https://dannyfritz.github.io/funcdash/docs#multiply)
-[\_.product](https://dannyfritz.github.io/funcdash/docs#product)
+[\_.multiply](https://dannyfritz.github.io/funcdash/docs/_.html#multiply)
+[\_.product](http://dannyfritz.github.io/funcdash/docs/_.html#product)
