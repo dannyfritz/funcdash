@@ -1,3 +1,7 @@
+/**
+ * FuncDash
+ * @class _
+ */
 module.exports = {
 	// Function
 	apply: require('./function/apply'),

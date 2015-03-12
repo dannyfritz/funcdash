@@ -4,15 +4,15 @@ var tail = require('lodash-compat/array/tail');
 var toArray = require('lodash-compat/lang/toArray');
 
 /**
- *	Call a function with the given arguments.
+ * Call a function with the given arguments.
  *
- *	@static
- *	@memberOf _
- *	@category Function
- *	@param {Function} func The function to be called.
- *	@param {...*} The arguments of the function call.
- *	@returns {*} Returns the result of the function.
- *	@example
+ * @static
+ * @memberOf _
+ * @category Function
+ * @param {Function} func The function to be called.
+ * @param {...*} The arguments of the function call.
+ * @returns {*} Returns the result of the function.
+ * @example
  *
  * _.call(_.add, 1, 2);
  * // => 3
