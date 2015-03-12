@@ -4,7 +4,9 @@
   "description": "Documentation for funcdash",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npm run clone && npm run generate",
+    "clone": "node clone.js",
+    "generate": "jsdoc -c jsdoc.json"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,9 @@
   "bugs": {
     "url": "https://github.com/dannyfritz/funcdash/issues"
   },
-  "homepage": "https://github.com/dannyfritz/funcdash"
+  "homepage": "https://dannyfritz.github.io/funcdash/docs",
+  "devDependencies": {
+    "del": "^1.1.1",
+    "jsdoc": "^3.2.2"
+  }
 }

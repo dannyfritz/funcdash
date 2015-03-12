@@ -1,0 +1,12 @@
+{
+	"source": {
+		"include": ["src"],
+		"includePattern": ".+\\.js(doc)?$",
+		"excludePattern": "(^|\\/|\\\\)_"
+	},
+	"opts": {
+		"recurse": true,
+		"destination": "./docs/",
+		"package": "./src/package.json"
+	}
+}
