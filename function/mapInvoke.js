@@ -13,12 +13,11 @@ var all = require('lodash-compat/collection/all');
  * @category Function
  * @param {...Function} [functions] The functions to be invoked.
  * @returns {Function} Function that when called, returns an Array with each
- *   result of each function invoked with the given
- *   arguments.
+ *   result of each function invoked with the given arguments.
  * @example
  *
- * var results = _.mapInvoke(_.add, _.multiply);
- * results(3, 5);
+ * var invoker = _.mapInvoke(_.add, _.multiply);
+ * invoker(3, 5);
  * // => [8, 15]
  */
 function mapInvoke () {

@@ -8,8 +8,8 @@ var toArray = require('lodash-compat/lang/toArray');
  * @static
  * @memberOf _
  * @category Math
- * @param {Array|Object|string} collection The collection to iterate over.
- * @returns {number} Returns the product.
+ * @param {Array|Object|String} collection The collection to iterate over.
+ * @returns {Number} Returns the product.
  * @example
  *
  * _.product([4, 6, 2]);

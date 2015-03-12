@@ -10,7 +10,7 @@ var toArray = require('lodash-compat/lang/toArray');
  * @memberOf _
  * @category Function
  * @param {Function} func The function to be called.
- * @param {...*} The arguments of the function call.
+ * @param {...*} * The arguments of the function call.
  * @returns {*} Returns the result of the function.
  * @example
  *
