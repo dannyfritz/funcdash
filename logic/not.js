@@ -10,11 +10,11 @@
  * @returns {Boolean} Returns the result of a logical NOT.
  * @example
  *
- * _.or(true, false);
- * // => true
- *
- * _.or(false, false);
+ * _.not(true);
  * // => false
+ *
+ * _.not(false);
+ * // => true
  */
 function not (value) {
 	return !value;
