@@ -45,6 +45,7 @@ Read the [documentation](https://dannyfritz.github.io/funcdash/docs/_.html).
 ### Logic
 
 [\_.and](https://dannyfritz.github.io/funcdash/docs/_.html#and)
+[\_.ifElse](https://dannyfritz.github.io/funcdash/docs/_.html#ifElse)
 [\_.or](https://dannyfritz.github.io/funcdash/docs/_.html#or)
 [\_.not](https://dannyfritz.github.io/funcdash/docs/_.html#not)
 
