@@ -9,6 +9,7 @@ module.exports = {
 	mapInvoke: require('./function/mapInvoke'),
 	// Logic
 	and: require('./logic/and'),
+	ifElse: require('./logic/ifElse'),
 	not: require('./logic/not'),
 	or: require('./logic/or'),
 	// Math

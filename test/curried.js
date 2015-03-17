@@ -1,5 +1,10 @@
 var test = require('tape');
 var _ = require('lodash-fp').runInContext();
+var isNumber = require('lodash-compat/lang/isNumber');
+var constant = require('lodash-compat/utility/constant');
+var partial = require('lodash-compat/function/partial');
+var add = require('lodash-compat/math/add');
+
 _.mixin(require('../curried'));
 
 test('curried', function (t) {
@@ -20,5 +25,8 @@ test('curried', function (t) {
 	t.equal(_.or(false, true), true);
 	t.equal(_.product([1, 2, 3]), 6);
 	t.equal(_.product([1, 2, 3], [2]), 6);
+	var add2 = _.ifElse(isNumber, partial(add, 2), constant(0));
+	t.equal(add2(), 0);
+	t.equal(add2(0), 2);
 	t.end();
 });

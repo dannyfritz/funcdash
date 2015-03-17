@@ -5,12 +5,14 @@ var curried = cloneDeep(require('./'));
 
 var aryMethodMap = {
 	1: ['not', 'product'],
-	2: ['and', 'or', 'apply', 'multiply']
+	2: ['and', 'or', 'apply', 'multiply'],
+	3: []
 }
 
 var aryReargMap = {
 	1: [0],
-	2: [1, 0]
+	2: [1, 0],
+	3: [2, 0, 1]
 }
 
 function convert (func, aryReargMap) {
